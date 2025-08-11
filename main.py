@@ -1,8 +1,8 @@
 # CPRG216 Assigment #4 GROUP
-# This program read in doctors.txt, facilities.txt,  laboratories.txt, patients.txt.
+# This program reads doctors.txt, facilities.txt,  laboratories.txt, patients.txt.
 # Import a Python class for each txt file.
 # This main menu displays options to go into sub-menus (1 for each file)
-# The sub-menus allow user to create, search or modify data inside corresponded txt file
+# The sub-menus allows a user to create, search or modify data inside corresponded txt file
 # In the end, any modification to the txt file will be commited to the file after user selecting 0 to return to the main menu.
 #
 # Inputs:
@@ -17,8 +17,8 @@
 #       Import the Class from another python file
 #       Read the txt file
 #       Create an object for each entry and group them into a list
-#       Manipulte object's attributes to print, search, and edit object's info
-#       Create a new instant when user add a new object
+#       Manipulate object's attributes to print, search, and edit object's info
+#       Create a new instance when user adds a new object
 #       Write any modification/addition to file when user selects 0
 #
 # Output:
@@ -28,7 +28,7 @@
 # Version 2022-12-11
 #
 
-# Calling the Main memu function
+# Calling the Main menu function
 def main():
     mainMemu()
 
@@ -323,3 +323,4 @@ def mainMemu():
 
 if __name__ == "__main__":
     main()
+
