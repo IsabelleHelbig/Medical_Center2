@@ -1,1 +1,1 @@
-# Medical_Center2
+This Python program manages hospital records for doctors, facilities, laboratories, and patients using data stored in separate text files. Each data type is handled by its own class, with a main menu directing users to sub-menus where they can view, search, add, and edit records. All changes are saved back to the corresponding file upon exiting a sub-menu, ensuring that updates persist across sessions.
